@@ -1,0 +1,17 @@
+#---------------------------------------------------------------------
+#  GitHub Action 
+#---------------------------------------------------------------------
+
+
+on: 
+  push:
+    branches: 
+      - main
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Hello world
+      run : echo "Hello World"
